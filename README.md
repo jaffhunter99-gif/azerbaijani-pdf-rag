@@ -221,7 +221,7 @@ Ona görə hər sabit sistemdə **yalnız bir yerdə** yazılır. `sohbet.py` v�
 | Cavab modeli | Groq `openai/gpt-oss-120b`, `temperature=0` | sürət və qiymət |
 | Parçalama | 800 hərf / 150 örtük | 3 səhifəlik sənəd üçün 8 parça |
 | Axtarış | `similarity_search(k=4)` | 8 parçalı sənəddə yarısına baxır. Böyük `k` prompt-u zibillə doldurur, kiçik `k` cavabı itirir — bu dəyər standartdır, hələ tənzimlənməyib |
-| Yaddaş | son 3 sual-cavab cütü | — |
+| Yaddaş | son 3 sual-cavab cütü | sualı tam hala salmaq üçün son bir neçə cümlə kifayətdir. Bütöv tarixçə həm prompt-u böyüdür, həm də köhnə mövzu yeni sualı çaşdırır |
 
 ---
 
