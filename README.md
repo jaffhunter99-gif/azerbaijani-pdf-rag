@@ -18,7 +18,7 @@ Cavab: Xırdalan anbarı saat 08:00-də açılır.
 
 ## Hansı problemi həll edir
 
-Hər şirkətdə heç kimin oxumadığı sənədlər var: əməliyyat təlimatı, tarif cədvəli, HR qaydaları, müqavilə şərtləri. İşçi sənədi açmır — kolleqasından soruşur. Kolleqa təxminən deyir. Nəticə: müştəriyə səhv qiymət deyilir, səhv müddət vəd edilir.
+Hər şirkətdə heç kimin oxumadığı sənədlər var: əməliyyat təlimatı, tarif cədvəli, müqavilə şərtləri və.s
 
 Bu sistem həmin sənədi cavab verən hala gətirir və **hansı hissədən götürdüyünü** göstərir.
 
