@@ -195,7 +195,7 @@ python bax.py       # diaqnoz: parçaları balla sıralayır
 
 | Fayl | Rolu |
 |---|---|
-| `ayarlar.py` | bütün sabitlər — **tək həqiqət mənbəyi** |
+| `ayarlar.py` | bütün sabitlər |
 | `qur.py` | PDF → təmizlə → parçala → embed → Chroma |
 | `bot.py` | sistemin özəyi: retrieval + sualın yenidən yazılması + cavab |
 | `sohbet.py` | söhbət rejimi *(məntiq saxlamır, `bot.py`-a müraciət edir)* |
