@@ -1,0 +1,14 @@
+# Gizli
+.env
+
+# Yenidən yaradıla bilən
+baza/
+.venv/
+__pycache__/
+*.pyc
+
+# Müvəqqəti
+freeze.txt
+
+# Sistem
+Thumbs.db
