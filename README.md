@@ -220,7 +220,7 @@ Ona görə hər sabit sistemdə **yalnız bir yerdə** yazılır. `sohbet.py` v�
 | Vektor bazası | Chroma *(`baza/`)* | yerli fayl, əlavə server tələb etmir |
 | Cavab modeli | Groq `openai/gpt-oss-120b`, `temperature=0` | sürət və qiymət |
 | Parçalama | 800 hərf / 150 örtük | 3 səhifəlik sənəd üçün 8 parça |
-| Axtarış | `similarity_search(k=4)` | — |
+| Axtarış | `similarity_search(k=4)` | 8 parçalı sənəddə yarısına baxır. Böyük `k` prompt-u zibillə doldurur, kiçik `k` cavabı itirir — bu dəyər standartdır, hələ tənzimlənməyib |
 | Yaddaş | son 3 sual-cavab cütü | — |
 
 ---
@@ -233,11 +233,4 @@ Ona görə hər sabit sistemdə **yalnız bir yerdə** yazılır. `sohbet.py` v�
 - **Yalnız bulud modeli.** Dövlət və bank kimi məlumatı perimetrdən çıxara bilməyən müştərilər üçün lokal rejim (Ollama) lazımdır — planlaşdırılıb, hələ edilməyib.
 - **Bir sənəd üçün qurulub.** Çox sənədli iş üçün metadata və mənbə filtrləməsi əlavə olunmalıdır.
 
----
 
-## Növbəti addımlar
-
-- [ ] Lokal model rejimi (Ollama) + bulud ilə keyfiyyət/latency müqayisəsi
-- [ ] Retrieval-ın MCP server kimi açılması
-- [ ] Docker ilə paketləmə
-- [ ] Cavabı ikinci modelə qiymətləndirtmək (LLM-as-judge)
