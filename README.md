@@ -64,13 +64,13 @@ flowchart TD
 
 | # | Nə yoxlanır | Sual | Nəticə |
 |---|---|---|---|
-| 1 | sadə fakt | Xırdalan anbarı axşam neçədə bağlanır? | ✅ |
+| 1 | sadə fakt | Xırdalan anbarı axşam neçədə bağlanır? | ✅ 20:00 |
 | 2 | oxşar bölmələri qarışdırmır | Dəyişdirmə sorğusu neçə gün ərzində? | ✅ 14 gün *(qaytarmanın 7 günü ilə qarışdırmadı)* |
 | 3 | hesablama | Gəncəyə 4 kq neçəyə? | ✅ 7 × 1.8 = 12.6 |
-| 4 | hərf səhvi | `xirdlan anbari axsam necde baglanir` | ✅ |
-| 5 | fərqli sözlər | `paketi itirseler mene nə qədər pul verirler` | ✅ 80%, maks 500 |
+| 4 | hərf səhvi | xirdlan anbari axsam necde baglanir | ✅ 20:00 |
+| 5 | fərqli sözlər | paketi itirseler mene nə qədər pul verirler | ✅ 80%, maks 500 |
 | 6 | uydurma yoxlaması | Gəncədə filial varmı? | ✅ "məlumat yoxdur" |
-| 7 | kontekstsiz sual | *(əvvəlki sualdan sonra)* Bəs bağlanır? | ✅ |
+| 7 | kontekstsiz sual | *(əvvəlki sualdan sonra)* Bəs bağlanır? | ✅ 20:00 |
 | 8 | nüanslı bənd | Sığorta xidməti neçəyə başa gəlir? | ✅ 2% — **ödənilən haqq**, kompensasiya deyil |
 
 ### ⚠️ Rəqəmi dürüst oxumaq
