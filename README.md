@@ -106,7 +106,7 @@ PDF-dən çıxarılan mətndə sözlərin arasında boşluq yox, **tab** vardı:
 **Həll:** `qur.py`-da yükləmədən sonra `re.sub(r"[ \t]+", " ", ...)`.
 **Dərs:** mətn çirklidirsə, model nə qədər güclü olsa da sistem işləmir.
 
-### 2. ⭐ Embedding modeli azərbaycanca bilmirdi
+### 2. Embedding modeli azərbaycanca bilmirdi
 
 Sistem "Sənəddə məlumat yoxdur" deyirdi — halbuki məlumat sənəddə vardı.
 
@@ -120,7 +120,7 @@ Sistem "Sənəddə məlumat yoxdur" deyirdi — halbuki məlumat sənəddə vard
 
 **Dərs:** RAG işləmirsə, ilk baxılacaq yerlərdən biri embedding modelidir. Bal fərqli modellər arasında müqayisə olunmur — hər modelin öz miqyası var.
 
-### 3. ⭐ Yaddaş var idi, axtarış yenə sındı
+### 3. Yaddaş var idi, axtarış yenə sındı
 
 Söhbət yaddaşı əlavə edildi. Sınaq:
 
